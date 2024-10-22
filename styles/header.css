@@ -148,6 +148,11 @@ width: auto;
     color: var(--branco);
 }
 
+.lista-menu__item: :hover {
+background: var(--azul-degrade);
+
+}
+
 }
 
 
