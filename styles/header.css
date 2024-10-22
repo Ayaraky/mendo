@@ -74,6 +74,10 @@
     display: none;
 }
 
+.container__botao:checked ~ .container__rotulo > .cabeçalho__menu-hamburguer {
+  background-image: url("../img/MenuAberto.svg");
+}
+
 
 @media screen and (min-width: 1024px) { 
 
